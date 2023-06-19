@@ -1,0 +1,126 @@
+
+
+
+<!--
+=========================================================
+* Material Dashboard 2 - v3.0.4
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+
+
+  <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Candidate Assesment</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+
+<body>
+<div id="form">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab">Add Job</a></li>
+         
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+            <h2 class="text-uppercase text-center"> Fill Job Details</h2>
+            <form id="signup" action="Addjob" method="post">
+                    <div class="form-group">
+                <label> Job title<span class="req">*</span> </label>
+                <input type="text"  name="title" class="form-control" id="email" required data-validation-required-message="Please enter your job title" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+            
+              <div class="form-group">
+                <label> Job Description<span class="req">*</span> </label>
+                <input type="text" name="desc" class="form-control" id="password" required data-validation-required-message="Please enter your job description" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+
+              <div class="form-group">
+                <label> Salary Range<span class="req">*</span> </label>
+                <input type="text" name="sal" class="form-control" id="password" required data-validation-required-message="Please enter your salary range" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              
+
+              <div class="form-group">
+                <label> Qualities<span class="req">*</span> </label><br><br><br>
+               <input type="checkbox" id="o" name="o" value="Openness">
+				<label for= " vehicle1"><font color="white">Openness</font> </label>
+				<input type="checkbox" id="c" name="c" value=" Conscientiousness">
+<label for="vehicle2"><font color="white"> Conscientiousness</font></label>
+<input type="checkbox" id="e" name="e" value="Extraversion">
+<label for="vehicle3"><font color="white"> Extraversion</font></label>
+<input type="checkbox" id="a" name="a" value="Agreeableness">
+<label for="vehicle3"><font color="white"> Agreeableness</font></label>
+<input type="checkbox" id="n" name="n" value="Neuroticism">
+<label for="vehicle3"><font color="white"> Neuroticism</font></label>
+                <p class="help-block text-danger"></p>
+              </div><br><br>
+                <div class="form-group">
+                <label> Experience<span class="req">*</span> </label>
+                <input type="number" name="exp" class="form-control" id="password" required data-validation-required-message="Please enter your  experience" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit"  class="btn btn-larger btn-block"/>
+                Add Job
+                </button>
+              </div>
+            </form>
+               <div class="mrgn-30-top">
+                <button type="submit"  class="btn btn-larger btn-block"/><a href=hrlogin.html>
+                Back to dashboard</a>
+                </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+<!-- /.container --> 
+</div>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+     
+
+
+
+
+
+<!--   Core JS Files   -->
+<script src="./assets/js/core/popper.min.js" ></script>
+<script src="./assets/js/core/bootstrap.min.js" ></script>
+<script src="./assets/js/plugins/perfect-scrollbar.min.js" ></script>
+<script src="./assets/js/plugins/smooth-scrollbar.min.js" ></script>
+
+
+  </body>
+
+</html>
